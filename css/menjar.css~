@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+	background-color: #50577A;
+}
+
+#titulo {
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-size: 50px;
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0; 
+   padding: 0;
+	overflow: hidden;
+	background-color: #474E68;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+}
+

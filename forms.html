@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+<html lang="ca">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/forms.css"> 
+	<link rel="icon" href="img/sg.png">
+	<title>Formulari</title>
+</head>
+<body>
+	<header>
+		<h1 id="titulo">Barcelona</h1>
+	</header>
+	<section>
+		<nav>
+			<ul>
+				<li><a href="index.html">INICI</a></li>
+				<li><a href="visitar.html">PLACES</a></li>
+				<li><a href="menjar.html">MENJAR</a></li>
+				<li><a href="galeria.html">GALERIA</a></li>
+				<li><a href="forms.html">CONTACTE</a></li>
+				<li><a href="video.html">VIDEO</a></li>
+			</ul>		
+		</nav>
+		<article class="general"> 
+					<br><br><br><br>					
+					<h2 class="infort">Contacte</h2><br>
+					<p class="infor">Comunicat amb el nostre Equip!</p><br>
+					<p class="infor">Avinguda de Tarragona, 86, 08720 Vilafranca del Penedès, Barcelona</p><br>
+					<p class="infor">aarbos@ies-eugeni.cat</p><br>
+			<div class="forms">
+				<form action="forms.html">
+					<label for="nombreyap">Nom i Cognoms:</label><br>
+					<input type="text" id="nombreyap" name="nombreyap" size="28" required><br><br>
+					
+					<label for="email">Correo Electrónico:</label><br>		
+					<input type="email" id="email" name="email" size="28" placeholder="ejemplo123@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><br><br>
+					
+					<label for="mensaje">Missatge</label><br>
+					<textarea id="mensaje" name="message" rows="4" cols="50"></textarea><br><br>
+					
+					<input type="submit" value="Enviar">
+				</form>
+			</div>
+		</article>
+	</section>
+	<footer>
+		<p>Alejandro Arbós Chávez</p>	
+	</footer>
+</body>
+</html>
